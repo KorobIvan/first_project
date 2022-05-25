@@ -5,4 +5,4 @@ in this projekt have 4 mini game:
 2)
 3)
 4)
-When you get 3 pint on mini-game, you can start next mini-game
+When you get 3 point on mini-game, you can start next mini-game
