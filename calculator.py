@@ -19,21 +19,24 @@ def calculate_line():
         searche_digit = first_digit * second_digit
     line = f'{first_digit} {simbol_of_calculate} {second_digit}'
     return line, searche_digit
-
-i = 0
-while i < 3:
-    a, b = calculate_line() # присваиваю внешним переменным значения из функции 
-    print(a, b)
-    number = input('Введите результат действия: ') # вводим правильный ответ 
-    try: # исключение ошибки с введением текста вместо числа 
-        if int(number) == b: # проверка правильности введенного числа 
-            i += 1
-            print(f'Молодец!\nКоличество набранных очков = {i}')
-        else:
-            i = 0
-            print(f'Попробуй еще раз!\nКоличество набранных очков = {i}')
-    except ValueError:
-        i = 0 
-        print('Ошибка ввода, попробуй еще раз!')
-    if i == 3:
-        print('Поздравляю, вы успешно прошли игру!!!')
+def calculate_line_result():
+    """add game vith calculate line results"""
+    i = 0
+    while i < 3:
+        a, b = calculate_line() # присваиваю внешним переменным значения из функции 
+        print(a, b)
+        number = input('Введите результат действия: ') # вводим правильный ответ 
+        try: # исключение ошибки с введением текста вместо числа 
+            if int(number) == b: # проверка правильности введенного числа 
+                i += 1
+                print(f'Молодец!\nКоличество набранных очков = {i}')
+            else:
+                i = 0
+                print(f'Попробуй еще раз!\nКоличество набранных очков = {i}')
+        except ValueError:
+            i = 0 
+            print('Ошибка ввода, попробуй еще раз!')
+        if i == 3:
+            print('Поздравляю, вы успешно прошли игру!!!')
+if __name__ == '__main__':
+    calculate_line_result()
