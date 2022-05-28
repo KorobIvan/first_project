@@ -1,5 +1,5 @@
 # first_projekt
-math game
+Math game,
 in this projekt have 5 mini-game:
 1.
 2.
