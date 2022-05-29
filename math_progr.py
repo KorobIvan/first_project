@@ -14,7 +14,7 @@ def math_progrission(count_of_digit=7):
         if j+1 == serche_digit_namder:  # если шаг цикла + 1(т.к. цикл начинается с 0) численно равен переменной, которая отвечает за заменяемый номер позиции, то в прогрессию записываем Х вместо числа                
             math_progression += 'X '
             serche_digit = current_digit  # это число нам понадобится для сравнения с тем, которое ввел пользователь в выполнение программы
-            print(serche_digit)  # мне было лень считать каждый раз это чило 
+            #print(serche_digit)  # мне было лень считать каждый раз это чило 
         else:
             math_progression += f'{current_digit} '  # в прогрессию впичываем новое число
     return (math_progression, serche_digit)  # выводим кортеж из функции
