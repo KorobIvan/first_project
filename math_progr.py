@@ -36,5 +36,5 @@ def math_progrission_result():
             i = 0 
             print('Ошибка ввода, попробуй еще раз!')
 if __name__ == '__main__':
-    math_progrission_result()    
+    math_progrission_result()   
     
