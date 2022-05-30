@@ -1,5 +1,5 @@
 import even_integer
-import math_progr
+import progression
 import calculator
 import join_division
 import prime_number
@@ -12,7 +12,7 @@ even_integer.even_results()
 print('Молодец, приступай к следующей мини-игре!\n')
 calculator.calculate_line_result()
 print('Молодец, приступай к следующей мини-игре!\n')
-math_progr.math_progrission_result()
+progression.math_progression_result()
 print('Молодец, приступай к следующей мини-игре!\n')
 join_division.division_result()
 print('Молодец, приступай к следующей мини-игре!\n')

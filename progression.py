@@ -2,7 +2,7 @@ from random import randint
 
 
 
-def math_progrission(count_of_digit=7):
+def math_progression(count_of_digit=7):
     """Add math progression
     return progression(string) and the searche namber""" 
     math_progression = '' #обнуляем будущую прогрессию                               
@@ -18,11 +18,11 @@ def math_progrission(count_of_digit=7):
         else:
             math_progression += f'{current_digit} '  # в прогрессию впичываем новое число
     return (math_progression, serche_digit)  # выводим кортеж из функции
-def math_progrission_result():
+def math_progression_result():
     """Work with retern of math_progrission"""
     i = 0  # обнуляем счетчик итераций(очков набранных пользователем при прохождение игры)
     while i < 3:  # пользователь должен набрать 3 очка в этой игре
-        text, z = math_progrission()  # распаковываем функцию                             
+        text, z = math_progression()  # распаковываем функцию                             
         print(f'Перед вами ряд чисел, допишите недостающее число:\n{text}')
         number = input('Введите пропущенное число: ') 
         try:  # проверка на ошибку, если вместо числа ввидут буквы или другие символы
@@ -36,5 +36,5 @@ def math_progrission_result():
             i = 0 
             print('Ошибка ввода, попробуй еще раз!')
 if __name__ == '__main__':
-    math_progrission_result()   
+    math_progression_result()   
     
