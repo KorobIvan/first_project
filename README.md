@@ -1,6 +1,6 @@
 # first_projekt
 <h1 align="center">Math game,in this projekt have 5 mini-game:</h1>
-1.
+<h2>1.</h2>
 2.
 3.
 4.
