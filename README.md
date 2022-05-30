@@ -1,8 +1,8 @@
 # first_projekt
-<h1 align="center">Math game,in this projekt have 5 mini-game:</h1>
-<h2>1.</h2>
-<h2>2.</h2>
-<h2>3.</h2>
-<h2>4.</h2>
-<h2>5.</h2>
-<h2>When you get 3 point on mini-game, you can start next mini-game.</h2>
+<h4 align="center">Math game,in this projekt have 5 mini-game:</h4>
+<h5>1. even_integer</h5>
+<h5>2. math_progr</h5>
+<h5>3. calculator</h5>
+<h5>4. join_division</h5>
+<h5>5. prime_number</h5>
+<h5>When you get 3 point on mini-game, you can start next mini-game.</h5>
