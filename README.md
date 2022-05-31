@@ -1,4 +1,4 @@
-# first_projekt
+# first_projeсt
 <h4 align="center">Math game,in this projekt have 5 mini-game:</h4>
 <h5>1. even_integer</h5>
 <h5>2. progression</h5>
